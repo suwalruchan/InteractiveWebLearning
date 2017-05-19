@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<!-- Mirrored from ionicframework.com/getting-started by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 02 Apr 2017 20:13:41 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+      <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<link href="css/styles.minf788.css?v=2219e13b6626beb7b82e0794ac512f1b" rel="stylesheet">
+
+
+
+  <title>Getting Started with Android Studio</title>
+
+
+<meta name="author" content="Drifty">
+<meta name="description" content="Ionic lets developers build beautiful and interactive mobile apps using HTML5 and AngularJS.">
+<meta name="keywords" content="html5,javascript,mobile,drifty,ionic,hybrid,phonegap,cordova,native,ios,android,angularjs">
+<link rel="canonical" href="getting-started.html">
+
+<!-- Social: Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@ionicframework">
+<meta name="twitter:creator" content="ionicframework">
+<meta name="twitter:title" content="Ionic Framework">
+<meta name="twitter:description" content="The easiest way to build amazing mobile and progressive web apps. 100% free and open source.">
+<meta name="twitter:image:src" content="img/ionic-meta.jpg">
+
+<!-- Social: Facebook / Open Graph -->
+<meta property="fb:app_id" content="1321836767955949">
+<meta property="og:url" content="getting-started.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Ionic Framework">
+<meta property="og:image" content="img/ionic-meta.jpg"/>
+<meta property="og:description" content="The easiest way to build amazing mobile and progressive web apps. 100% free and open source.">
+<meta property="og:site_name" content="Ionic Framework">
+<meta property="article:publisher" content="https://www.facebook.com/ionicframework">
+
+<link rel="apple-touch-icon" sizes="57x57" href="img/meta/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="img/meta/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/meta/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="img/meta/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/meta/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="img/meta/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="img/meta/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="img/meta/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="img/meta/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/meta/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/meta/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="img/meta/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="192x192" href="img/meta/android-192x192.html">
+<link rel="manifest" href="manifest.json">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-TileImage" content="img/meta/ms-icon-144x144.png">
+<meta name="theme-color" content="#4c8fff">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+      
+    
+  </head>
+  <body id="page-getting-started"
+        class="page-getting-started
+               transparent"
+        data-spy="scroll"
+        data-offset="100"
+        ng-app="IonicSite">
+
+    <div id="snap-bar">
+        <b>Interactive Web Learning</b>
+      </a>
+    </div>
+    <nav class="navbar navbar-default transparent">
+    <!-- Brand and toggle get grouped for better mobile display -->
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+	  <li><a href="index.html">Home</a></li>
+        <li class="active"><a
+  href="docs/components/index.html">Getting Started</a></li>
+
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+    
+<div class="cta gradient">
+  <hgroup class="container center">
+    <a class="crash-course" href="https://www.youtube.com/watch?v=zEsDwzjPJ5c" target="_blank">
+      <h3>Watch the Crash Course Video</h3>
+      <img src="img/getting-started/crash-course-thumbnail.png" />
+    </a>
+    <h1>Get started with Android Studio</h1>
+    <h4>
+      Start building high-quality android apps with the tech you know and love.
+    </h4>
+    <p>
+      <small>
+        For our v1 Getting Started guide <a href="docs/v1/getting-started/index.html">
+        head over here</a>
+      </small>
+    </p>
+  </hgroup>
+</div>
+
+<main ng-init="active='code'">
+  <section class="container code" ng-show="active == 'code'">
+    <ul class="steps">
+      <li>
+        <h3>Install Android</h3>
+        <div class="left">
+          <figure class="highlight">
+            <pre><code class="language-bash hljs"
+                    data-lang="bash"> Download<a href="https://developer.android.com/studio/index.html">  Android Studio</a></code></pre>
+  
+          </figure>
+        </div>
+      </li>
+      <li>
+        <h3>Update Android SDK</h3>
+        <div class="left">
+          <figure class="highlight">
+            <pre><code class="language-bash hljs"
+                    data-lang="bash"> <a href="https://developer.android.com/studio/intro/update.html">SDK Manager</a></code></pre>
+					<li>Updated Android SDK tools, platform and component dependencies. Available through Android Studio’s <a href="https://developer.android.com/studio/intro/update.html">SDK Manager</a></li>
+          </figure>
+        </div>
+        
+      </li>
+      <li>
+        <h3>Create New Project </h3>
+        <div class="clearfix">
+          <div class="left" style="width: 108%;">
+            <figure class="highlight">
+              <pre>
+                <code class="language-bash hljs"
+                      data-lang="bash">
+					  <div class="jd-descr " itemprop="articleBody">
+      
+
+<!-- This is the training bar -->
+
+<p>This lesson shows you how to create a new Android project with
+  <a href="https://developer.android.com/studio/index.html">Android Studio</a> and describes some
+  of the files in the project.</p>
+<p>
+  <p>In Android Studio, create a new project:
+      <p>If you don't have a project opened, in the <strong>Welcome to Android Studio</strong> window, click <strong>
+        Start a new Android Studio project</strong>.</p>
+      <p>If you have a project opened, select <strong>File &gt; New Project</strong>.</p>
+  </p>
+  <p>In the <b>New Project</b> screen, enter the following values:
+    <p>
+      <p><strong>Application Name</strong>: "My First App" </p>
+      <p><strong>Company Domain</strong>: "example.com"</p>
+    </p>
+    <p>You might want to change the project location, but leave the other options as they are.</p>
+  </p>
+
+  <li>Click <b>Next</b>.</li>
+  <li>In the <b>Target Android Devices</b> screen, keep the default values and
+    click <b>Next</b>.
+    <p>If you're curious about how these SDK versions affect your app, read
+      <a href="https://developer.android.com/training/basics/supporting-devices/platforms.html">
+      Supporting Different Platform Versions</a>.</p>
+    </li>
+
+  <li>In the <strong>Add an Activity to Mobile</strong> screen, select <strong>Empty
+    Activity</strong> and click <strong>Next</strong>.
+  </li>
+
+  <li>In the <strong>Customize the Activity</strong> screen, keep the default values
+    and click <strong>Finish</strong>.</li>
+</p>
+
+<p>After some processing, Android Studio opens the IDE.
+Now take a moment to review the most important files.</p>
+
+<p>First, be sure the <b>Project</b> window is open (select <b>View &gt; Tool Windows &gt; Project</b>)
+and the <b>Android</b> view is selected from the drop-down list at the top of that window.
+You can then see the following files:</p>
+
+<dl>
+  <dt><b>app &gt; java &gt; com.example.myfirstapp &gt; MainActivity.java</b></dt>
+  <dd>This is the main activity (the entry point for your app). When you build
+    and run the app, the system launches an instance of this <code><a href="https://developer.android.com/reference/android/app/Activity.html">Activity</a></code>
+    and loads its layout.</dd>
+  <dt><b>app &gt; res &gt; layout &gt; activity_main.xml</b></dt>
+  <dd>This XML file defines the layout for the activity's UI. It contains a <code><a href="https://developer.android.com/reference/android/widget/TextView.html">TextView</a></code> element with the text "Hello world!".</dd>
+
+  <dt><b>app &gt; manifests &gt; AndroidManifest.xml</b></dt>
+  <dd>The <a href="https://developer.android.com/guide/topics/manifest/manifest-intro.html">manifest file</a> describes
+    the fundamental characteristics of the app and defines each of its components.</dd>
+
+  <dt><b>Gradle Scripts &gt; build.gradle</b></dt>
+  
+</dl>
+  To run the app
+</p>
+
+
+    </div></code>
+              </pre>
+            </figure>
+          </div>
+          
+        </div>
+      </li>
+    </ul>
+  </section>
+
+
+
+  <section class="what-next" ng-show="active == 'code'">
+    <hgroup class="container">
+      <h2>That’s it. You’re done.</h2>
+    </hgroup>
+    <div class="items container">
+      <a class="native" href="">
+        <h3>Android Apps</h3>
+        <p>
+          A curated set of ES5/ES6/TypeScript wrappers for plugins to easily add
+          any native functionality to your Android apps.
+        </p>
+      </a>
+      <a class="components" href="">
+        <h3>UI Components</h3>
+        <p>
+          Tabs, buttons, inputs, lists, cards, and more! A comprehensive library
+          of mobile UI components, ready to go.
+        </p>
+      </a>
+      <a class="theming" href="">
+        <h3>Theming</h3>
+        <p>
+          Learn how to easily customize and modify your app’s design to fit your
+          brand across all mobile platform styles.
+        </p>
+      </a>
+    </div>
+    
+  </section>
+
+  <section class="creator container" ng-show="active == 'creator'" ng-cloak>
+    <hgroup>
+      <img src="img/getting-started/creator-logo.png"
+           alt="Creator"
+           class="logo">
+      <h2>Create your Android apps visually</h2>
+      <p>
+        A simple drag-&amp;-drop tool for going from idea to App Store, with
+        just the drag of a mouse.
+      </p>
+      <a href="https://usecreator.com/" class="btn">
+        Start an app in Creator <i class="ion-md-arrow-forward"></i>
+      </a>
+    </hgroup>
+    <img src="img/getting-started/creator-devices.png"
+         alt="Creator preview"
+         class="xl">
+  </section>
+</main>
+
+
+<script src="js/ionic-site.min0023.js?v=7d0a34063e2b97802845ee04b2b5673f"></script>
+
+
+
+
+      
+    
+  </body>
+
+<!-- Mirrored from ionicframework.com/getting-started by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 02 Apr 2017 20:13:41 GMT -->
+</html>
